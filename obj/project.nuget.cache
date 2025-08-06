@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5bB/6D+7KM0=",
+  "dgSpecHash": "R/Ti6r7FMpc=",
   "success": true,
-  "projectFilePath": "C:\\Users\\hanin\\OneDrive\\Desktop\\IDSInternship\\Meetify\\Meetify\\Meetify.csproj",
+  "projectFilePath": "C:\\IDSInternship\\Meetify\\Meetify\\Meetify.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hanin\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\hanin\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

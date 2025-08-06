@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hanin\\OneDrive\\Desktop\\IDSInternship\\Meetify\\Meetify\\Meetify.csproj": {}
+    "C:\\IDSInternship\\Meetify\\Meetify\\Meetify.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hanin\\OneDrive\\Desktop\\IDSInternship\\Meetify\\Meetify\\Meetify.csproj": {
+    "C:\\IDSInternship\\Meetify\\Meetify\\Meetify.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hanin\\OneDrive\\Desktop\\IDSInternship\\Meetify\\Meetify\\Meetify.csproj",
+        "projectUniqueName": "C:\\IDSInternship\\Meetify\\Meetify\\Meetify.csproj",
         "projectName": "Meetify",
-        "projectPath": "C:\\Users\\hanin\\OneDrive\\Desktop\\IDSInternship\\Meetify\\Meetify\\Meetify.csproj",
+        "projectPath": "C:\\IDSInternship\\Meetify\\Meetify\\Meetify.csproj",
         "packagesPath": "C:\\Users\\hanin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hanin\\OneDrive\\Desktop\\IDSInternship\\Meetify\\Meetify\\obj\\",
+        "outputPath": "C:\\IDSInternship\\Meetify\\Meetify\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
