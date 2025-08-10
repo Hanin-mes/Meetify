@@ -396,17 +396,17 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"t01kyuglfx"},{"Name":"integrity","Value":"sha256-0\u002BOrIbuBPR3HGBpows26fnWeZDEmkNIQOA3m\u002BLUDsuc="},{"Name":"label","Value":"_content/Meetify/css/bootstrap.css"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"280202"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00220\u002BOrIbuBPR3HGBpows26fnWeZDEmkNIQOA3m\u002BLUDsuc=\u0022"},{"Name":"Last-Modified","Value":"Sat, 09 Aug 2025 21:46:26 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/Meetify/css/landingpage.05bgz26h0i.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\landingpage.css'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"05bgz26h0i"},{"Name":"integrity","Value":"sha256-ZId2ESC57xQzUtg7oja91N/gMIaa\u002Bm5kkJu/XahOERM="},{"Name":"label","Value":"_content/Meetify/css/landingpage.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"5897"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022ZId2ESC57xQzUtg7oja91N/gMIaa\u002Bm5kkJu/XahOERM=\u0022"},{"Name":"Last-Modified","Value":"Sat, 09 Aug 2025 23:58:16 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Meetify/css/landingpage.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\landingpage.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-ZId2ESC57xQzUtg7oja91N/gMIaa\u002Bm5kkJu/XahOERM="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"5897"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022ZId2ESC57xQzUtg7oja91N/gMIaa\u002Bm5kkJu/XahOERM=\u0022"},{"Name":"Last-Modified","Value":"Sat, 09 Aug 2025 23:58:16 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-jO8Kdt/yQOFymZC11VOOn6JJTwcvNdADcjWNllXUakY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"7636"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022jO8Kdt/yQOFymZC11VOOn6JJTwcvNdADcjWNllXUakY=\u0022"},{"Name":"Last-Modified","Value":"Sun, 10 Aug 2025 23:03:48 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Meetify/css/landingpage.gfqbx5urju.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\landingpage.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"gfqbx5urju"},{"Name":"integrity","Value":"sha256-jO8Kdt/yQOFymZC11VOOn6JJTwcvNdADcjWNllXUakY="},{"Name":"label","Value":"_content/Meetify/css/landingpage.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"7636"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022jO8Kdt/yQOFymZC11VOOn6JJTwcvNdADcjWNllXUakY=\u0022"},{"Name":"Last-Modified","Value":"Sun, 10 Aug 2025 23:03:48 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Meetify/css/site.c2tiyv64ts.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
@@ -431,6 +431,18 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Jtxf9L\u002B5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"5430"},{"Name":"Content-Type","Value":"image/x-icon"},{"Name":"ETag","Value":"\u0022Jtxf9L\u002B5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=\u0022"},{"Name":"Last-Modified","Value":"Sat, 26 Jul 2025 22:04:09 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Meetify/images/meetify-backdrop.4bkh9uszjh.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\meetify-backdrop.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"4bkh9uszjh"},{"Name":"integrity","Value":"sha256-EOJhtZwRPB0vLjdWjrwCDXf1eQ4OxYtDNlJDX9SRMr4="},{"Name":"label","Value":"_content/Meetify/images/meetify-backdrop.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2633896"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022EOJhtZwRPB0vLjdWjrwCDXf1eQ4OxYtDNlJDX9SRMr4=\u0022"},{"Name":"Last-Modified","Value":"Sun, 10 Aug 2025 20:36:56 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Meetify/images/meetify-backdrop.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\meetify-backdrop.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-EOJhtZwRPB0vLjdWjrwCDXf1eQ4OxYtDNlJDX9SRMr4="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"2633896"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022EOJhtZwRPB0vLjdWjrwCDXf1eQ4OxYtDNlJDX9SRMr4=\u0022"},{"Name":"Last-Modified","Value":"Sun, 10 Aug 2025 20:36:56 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Meetify/js/bootstrap.bundle.3631qojtq1.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\bootstrap.bundle.js'))</AssetFile>

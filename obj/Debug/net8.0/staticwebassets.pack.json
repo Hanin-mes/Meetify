@@ -149,6 +149,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\images\\meetify-backdrop.png",
+      "PackagePath": "staticwebassets\\images\\meetify-backdrop.png"
+    },
+    {
       "Id": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\js\\bootstrap.bundle.js"
     },

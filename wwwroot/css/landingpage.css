@@ -1,119 +1,166 @@
-﻿/* Color Palette */
+﻿/* ========== Color Palette ========== */
 :root {
     --caribbean-current: #006d77ff;
     --tiffany-blue: #83c5beff;
     --alice-blue: #edf6f9ff;
     --pale-dogwood: #ffddd2ff;
     --atomic-tangerine: #e29578ff;
+    /* New: semantic tokens for text/buttons */
+    --ink: #0b2430;
+    --on-primary: #ffffff;
 }
 
-/* Reset and base */
-body, html {
+/* ========== Reset & Base ========== */
+html, body {
     margin: 0;
     padding: 0;
     height: 100%;
     font-family: 'Poppins', sans-serif;
     background-color: var(--alice-blue);
     scroll-behavior: smooth;
+    color: var(--ink);
 }
 
-/* Navbar */
+/* NEW: make space for fixed navbar so content isn’t hidden */
+:root {
+    --navbar-h: 72px;
+}
+
+body {
+    padding-top: var(--navbar-h);
+}
+
+/* ========== Navbar ========== */
 nav.navbar {
     position: fixed;
+    inset: 0 0 auto 0;
     width: 100%;
-    top: 0;
     z-index: 1050;
-    transition: background-color 0.4s ease;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
     background-color: transparent;
-    padding: 1rem 2rem;
+    padding: 0.8rem 1rem;
 }
 
+    /* When scrolled, give high contrast surface */
     nav.navbar.scrolled {
         background-color: var(--caribbean-current);
         box-shadow: 0 2px 8px rgba(0,0,0,0.15);
     }
 
+/* Brand/links: visible on transparent + on scrolled */
 nav .navbar-brand {
     font-weight: 700;
-    color: white;
     font-size: 1.5rem;
-    letter-spacing: 2px;
+    letter-spacing: 1.5px;
     user-select: none;
+    color: #0b2430; /* readable over light hero before scroll */
 }
 
+nav.navbar.scrolled .navbar-brand {
+    color: #fff;
+}
+
+/* Toggler: ensure visible over light hero */
+.navbar-toggler {
+    border-color: rgba(0,0,0,.2);
+}
+
+.navbar-toggler-icon {
+    filter: invert(20%);
+}
+
+nav.navbar.scrolled .navbar-toggler-icon {
+    filter: invert(100%);
+}
+
+/* Links */
 nav .nav-link {
-    color: white !important;
     font-weight: 500;
     margin-left: 1rem;
     cursor: pointer;
-    transition: color 0.3s ease;
+    transition: color 0.2s ease;
+    color: #123 !important; /* readable before scroll */
 }
 
-    nav .nav-link:hover {
-        color: var(--atomic-tangerine) !important;
-    }
+nav.navbar.scrolled .nav-link {
+    color: #fff !important;
+}
 
+nav .nav-link:hover {
+    color: var(--atomic-tangerine) !important;
+}
+
+/* Login button */
 nav .btn-login {
     border-radius: 25px;
     background: var(--atomic-tangerine);
-    color: white;
+    color: var(--on-primary);
     font-weight: 600;
-    padding: 0.4rem 1.2rem;
+    padding: 0.45rem 1.2rem;
     border: none;
-    transition: background 0.3s ease;
+    transition: transform .12s ease, background .2s ease;
     margin-left: 1rem;
 }
 
     nav .btn-login:hover {
         background: #d87c58;
-        color: white;
+        color: #fff;
+        transform: translateY(-1px);
     }
 
-/* Hero Section */
+nav.navbar.scrolled .btn-login {
+    box-shadow: 0 6px 16px rgba(0,0,0,.12);
+}
+
+/* ========== Hero ========== */
 .hero {
-    height: 100vh;
+    min-height: calc(100vh - var(--navbar-h));
     position: relative;
     display: flex;
-    justify-content: center;
     align-items: center;
-    text-align: center;
     color: var(--alice-blue);
     background: linear-gradient(135deg, var(--tiffany-blue), var(--pale-dogwood));
     overflow: hidden;
-    padding: 0 1rem;
+    padding: 2rem 1rem;
 }
 
+/* Two-column on md+; centered stack on mobile */
 .hero-content {
     position: relative;
     z-index: 10;
-    max-width: 900px;
+    width: 100%;
+    display: grid;
+    gap: 2rem;
+    align-items: center;
+}
+
+@media (min-width: 768px) {
+    .hero-content {
+        grid-template-columns: 1.1fr .9fr;
+    }
 }
 
 .hero h1 {
     font-weight: 700;
-    font-size: 3.5rem;
+    font-size: clamp(2.25rem, 4vw + 1rem, 3.5rem);
     margin-bottom: 1rem;
     color: var(--caribbean-current);
-    text-shadow: 1px 1px 8px rgba(0,0,0,0.1);
+    text-shadow: 1px 1px 8px rgba(0,0,0,0.08);
 }
 
 .hero p {
     font-weight: 400;
-    font-size: 1.4rem;
-    max-width: 600px;
-    margin: auto;
+    font-size: 1.25rem;
+    max-width: 640px;
+    margin: 0;
     color: var(--caribbean-current);
 }
 
 /* Animated background circles */
 .background-circles {
     position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
+    inset: 0;
     pointer-events: none;
-    overflow: visible;
     z-index: 1;
 }
 
@@ -153,41 +200,57 @@ nav .btn-login {
         }
 
 @keyframes floatUpDown {
-    0%, 100% {
-        transform: translateY(0) translateX(0);
+    0%,100% {
+        transform: translate(0,0);
     }
 
     50% {
-        transform: translateY(-40px) translateX(20px);
+        transform: translate(20px,-40px);
     }
 }
 
-/* Info Section */
+.text-area h1 {
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.text-area p {
+    font-size: 1.2rem;
+}
+
+.icon-area {
+    flex-shrink: 0;
+}
+
+/* Ensure SVG uses theme colors if not set inline */
+#meetifyIcon {
+    color: var(--caribbean-current);
+}
+
+/* ========== Info / Features ========== */
 #info {
-    padding: 4rem 2rem 6rem;
+    padding: 4rem 1rem 6rem;
     background-color: var(--alice-blue);
-    max-width: 1200px;
-    margin: auto;
-    display: flex;
-    justify-content: space-around;
-    gap: 2rem;
-    flex-wrap: wrap;
+}
+
+.info-grid {
+    /* NEW: grid for nicer wrapping */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1.5rem;
 }
 
 .info-card {
-    background: white;
+    background: #fff;
     border-radius: 15px;
     padding: 2rem;
-    flex: 1 1 280px;
     box-shadow: 0 15px 30px rgba(0,0,0,0.07);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    cursor: default;
-    user-select: none;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
     text-align: center;
 }
 
     .info-card:hover {
-        transform: translateY(-10px);
+        transform: translateY(-8px);
         box-shadow: 0 25px 40px rgba(0,0,0,0.15);
     }
 
@@ -195,34 +258,41 @@ nav .btn-login {
     font-size: 3rem;
     color: var(--caribbean-current);
     margin-bottom: 1rem;
-    user-select: none;
 }
 
 .info-title {
     font-weight: 700;
-    font-size: 1.4rem;
-    margin-bottom: 0.7rem;
+    font-size: 1.25rem;
+    margin-bottom: .5rem;
     color: var(--caribbean-current);
 }
 
 .info-text {
     font-size: 1rem;
     color: #444;
-    line-height: 1.5;
-    user-select: none;
+    line-height: 1.55;
 }
 
-/* Footer */
+/* ========== Contact ========== */
+#contact a {
+    color: inherit;
+    text-decoration: underline;
+}
+
+    #contact a:hover {
+        opacity: .9;
+    }
+
+/* ========== Footer ========== */
 footer {
     background-color: var(--caribbean-current);
-    color: white;
+    color: #fff;
     text-align: center;
     padding: 1.5rem 1rem;
     font-weight: 500;
-    user-select: none;
 }
 
-/* Floating labels login form */
+/* ========== Login Modal ========== */
 .form-floating > input:focus ~ label,
 .form-floating > input:not(:placeholder-shown) ~ label {
     opacity: 1;
@@ -239,42 +309,38 @@ footer {
 
 .login-form {
     max-width: 380px;
-    background: white;
+    background: #fff;
     padding: 2rem 2.5rem;
     border-radius: 12px;
     box-shadow: 0 20px 30px rgba(0,0,0,0.1);
-    position: relative;
 }
 
 /* Modal Overlay */
 #loginModal {
     background-color: rgba(0,0,0,0.5);
     backdrop-filter: blur(3px);
-    transition: opacity 0.4s ease;
+    transition: opacity 0.3s ease;
 }
 
-/* Scroll smooth behavior for navbar links */
-html {
-    scroll-behavior: smooth;
-}
-.hero-content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 80px 20px;
-    color: var(--caribbean-current);
+/* ========== Accessibility + Motion Prefs ========== */
+/* Visible focus for keyboard users */
+:focus-visible {
+    outline: 3px solid var(--atomic-tangerine);
+    outline-offset: 2px;
+    border-radius: 6px;
 }
 
-.text-area h1 {
-    font-weight: 700;
-    font-size: 3rem;
-    margin-bottom: 15px;
+/* Respect reduced motion */
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
 }
 
-.text-area p {
-    font-size: 1.25rem;
-}
-
-.icon-area {
-    flex-shrink: 0;
+/* ========== Small Tweaks ========== */
+a {
+    text-underline-offset: 2px;
 }

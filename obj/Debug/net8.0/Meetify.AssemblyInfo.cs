@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Meetify")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8a40c85758bacc55ff52d9a36ba1092812d21829")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4e93964ab9a1ecfbf2262080efb34124c4aa2170")]
 [assembly: System.Reflection.AssemblyProductAttribute("Meetify")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Meetify")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

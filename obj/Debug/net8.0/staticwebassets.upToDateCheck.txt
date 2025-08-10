@@ -34,6 +34,7 @@ wwwroot\css\bootstrap-utilities.rtl.min.css.map
 wwwroot\css\landingpage.css
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\images\meetify-backdrop.png
 wwwroot\js\bootstrap.bundle.js
 wwwroot\js\bootstrap.bundle.js.map
 wwwroot\js\bootstrap.bundle.min.js
