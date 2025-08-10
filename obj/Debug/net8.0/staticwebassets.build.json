@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Dgk+/oVm7v/WdYftvwEEV2ZIfJtjy2wea0tXdXnkj5s=",
+  "Hash": "RRk+dMO6NZPPYCfv4euWgbyVG0Xyyi28pmJWC7F+acI=",
   "Source": "Meetify",
   "BasePath": "_content/Meetify",
   "Mode": "Default",
@@ -59,6 +59,720 @@
       "OriginalItemSpec": "C:\\IDSInternship\\Meetify\\Meetify\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Meetify.bundle.scp.css"
     },
     {
+      "Identity": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\animate.min.css",
+      "SourceId": "Meetify",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\",
+      "BasePath": "_content/Meetify",
+      "RelativePath": "css/animate.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qbco4o2ysp",
+      "Integrity": "Ztg57o0FoWUrAQpFniZdZAOSRJu5MHmRDBSCWQqRT8g=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\animate.min.css"
+    },
+    {
+      "Identity": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\bootstrap.css",
+      "SourceId": "Meetify",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\",
+      "BasePath": "_content/Meetify",
+      "RelativePath": "css/bootstrap#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "t01kyuglfx",
+      "Integrity": "0+OrIbuBPR3HGBpows26fnWeZDEmkNIQOA3m+LUDsuc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap.css"
+    },
+    {
+      "Identity": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\bootstrap.css.map",
+      "SourceId": "Meetify",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\",
+      "BasePath": "_content/Meetify",
+      "RelativePath": "css/bootstrap.css#[.{fingerprint}]?.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "j1m9o9pn5t",
+      "Integrity": "KfxofL5yt27NqqYinBxvVVVHMUXkaIwbbjHfRKrtgw8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap.css.map"
+    },
+    {
+      "Identity": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\bootstrap.min.css",
+      "SourceId": "Meetify",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\",
+      "BasePath": "_content/Meetify",
+      "RelativePath": "css/bootstrap.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7z09619q9j",
+      "Integrity": "zRgmWB5PK4CvTx4FiXsxbHaYRBBjz/rvu97sOC7kzXI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap.min.css"
+    },
+    {
+      "Identity": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\bootstrap.min.css.map",
+      "SourceId": "Meetify",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\",
+      "BasePath": "_content/Meetify",
+      "RelativePath": "css/bootstrap.min.css#[.{fingerprint}]?.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jpw2fk0kvm",
+      "Integrity": "6a7kXCMLkOvwgsPvI9SphA3lCCVYilUHoqABNauxLDQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Identity": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\bootstrap.rtl.css",
+      "SourceId": "Meetify",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\",
+      "BasePath": "_content/Meetify",
+      "RelativePath": "css/bootstrap.rtl#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ajzo1u5v8g",
+      "Integrity": "Gk1oGfOLBLvjrSivQbGbLbVFDYLqIBwry7+HKKrwq08=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Identity": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\bootstrap.rtl.css.map",
+      "SourceId": "Meetify",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\",
+      "BasePath": "_content/Meetify",
+      "RelativePath": "css/bootstrap.rtl.css#[.{fingerprint}]?.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dwnyfrorjx",
+      "Integrity": "g1c2E/WGT3eJdfDltNW+2b3JVAyG74bcngJUPz4D068=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Identity": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\bootstrap.rtl.min.css",
+      "SourceId": "Meetify",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\",
+      "BasePath": "_content/Meetify",
+      "RelativePath": "css/bootstrap.rtl.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "sdlhrk323x",
+      "Integrity": "gP5J22JsVu+X8rzMEh1Kx+lD89HF3DW4YUWPiU9udUc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Identity": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\bootstrap.rtl.min.css.map",
+      "SourceId": "Meetify",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\",
+      "BasePath": "_content/Meetify",
+      "RelativePath": "css/bootstrap.rtl.min.css#[.{fingerprint}]?.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "h0ed2e8v31",
+      "Integrity": "MQL775aSq9kNSZA9h1GfrfILFLudaUgLi1xZ87cRkNY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Identity": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\bootstrap-grid.css",
+      "SourceId": "Meetify",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\",
+      "BasePath": "_content/Meetify",
+      "RelativePath": "css/bootstrap-grid#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "nclwyi8366",
+      "Integrity": "6aHQppfEko/srtbO3ubCBn9bCz25XtsZoZB8XwnYz34=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap-grid.css"
+    },
+    {
+      "Identity": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\bootstrap-grid.css.map",
+      "SourceId": "Meetify",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\",
+      "BasePath": "_content/Meetify",
+      "RelativePath": "css/bootstrap-grid.css#[.{fingerprint}]?.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4weum1d8i3",
+      "Integrity": "HA9YLrNkqlffVSkFCLsPOLpzvER9oRo1Zkrvt9F9q98=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Identity": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\bootstrap-grid.min.css",
+      "SourceId": "Meetify",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\",
+      "BasePath": "_content/Meetify",
+      "RelativePath": "css/bootstrap-grid.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "a6wz4zl1d0",
+      "Integrity": "og1MNJxsupki6LpVXZo+rC95f4QLF16m1YUpHn8vtyM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Identity": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\bootstrap-grid.min.css.map",
+      "SourceId": "Meetify",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\",
+      "BasePath": "_content/Meetify",
+      "RelativePath": "css/bootstrap-grid.min.css#[.{fingerprint}]?.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dojtn27aph",
+      "Integrity": "I0izs3TQUfbPyb/bNRPJ7iVJ0ULOZFtG/nyETTAU/Yc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Identity": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\bootstrap-grid.rtl.css",
+      "SourceId": "Meetify",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\",
+      "BasePath": "_content/Meetify",
+      "RelativePath": "css/bootstrap-grid.rtl#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zpf6r7iu2p",
+      "Integrity": "F6wTAruMGkJF9VRzPNq55rxR7N4yhnUKcQhxjmrsGRg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Identity": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\bootstrap-grid.rtl.css.map",
+      "SourceId": "Meetify",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\",
+      "BasePath": "_content/Meetify",
+      "RelativePath": "css/bootstrap-grid.rtl.css#[.{fingerprint}]?.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "q1l85krjoz",
+      "Integrity": "joHEUNOjjpxtq/QNYHOT4JpnFo4439IskmY+bjcTihk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Identity": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\bootstrap-grid.rtl.min.css",
+      "SourceId": "Meetify",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\",
+      "BasePath": "_content/Meetify",
+      "RelativePath": "css/bootstrap-grid.rtl.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ds340y6aci",
+      "Integrity": "02smAS4nas/okRY9J2IiVqi15Zdws9MuuybRJtf/xQo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Identity": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\bootstrap-grid.rtl.min.css.map",
+      "SourceId": "Meetify",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\",
+      "BasePath": "_content/Meetify",
+      "RelativePath": "css/bootstrap-grid.rtl.min.css#[.{fingerprint}]?.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xofyfpxpoh",
+      "Integrity": "8UZkqzSRw4UnhM40O7g3c1TI83av6RGCum1bdZ9q7l8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Identity": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\bootstrap-reboot.css",
+      "SourceId": "Meetify",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\",
+      "BasePath": "_content/Meetify",
+      "RelativePath": "css/bootstrap-reboot#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "m4zwc30cs6",
+      "Integrity": "Kg4miiK9t9v3vyB/LZUmz9a92vBlZxc1rZZfKyDO0wQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Identity": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\bootstrap-reboot.css.map",
+      "SourceId": "Meetify",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\",
+      "BasePath": "_content/Meetify",
+      "RelativePath": "css/bootstrap-reboot.css#[.{fingerprint}]?.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "l2uydcq7in",
+      "Integrity": "vQnPy/uX1PUe524N9eLyJT6Z++kPr1FwjMLB9qcThYQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Identity": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\bootstrap-reboot.min.css",
+      "SourceId": "Meetify",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\",
+      "BasePath": "_content/Meetify",
+      "RelativePath": "css/bootstrap-reboot.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "z4ulzpprs1",
+      "Integrity": "LR3cTZvDtka+FVVZFNhKksjFFc9s5eeQJtL7d+kM8Cg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Identity": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\bootstrap-reboot.min.css.map",
+      "SourceId": "Meetify",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\",
+      "BasePath": "_content/Meetify",
+      "RelativePath": "css/bootstrap-reboot.min.css#[.{fingerprint}]?.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vn0zb8aorj",
+      "Integrity": "G5m7S/1IY191YwC+jWUJ5M9qJy+K9/aeBvkL7BZfHEw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Identity": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\bootstrap-reboot.rtl.css",
+      "SourceId": "Meetify",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\",
+      "BasePath": "_content/Meetify",
+      "RelativePath": "css/bootstrap-reboot.rtl#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "55zgwnarf3",
+      "Integrity": "6VG3XVVVKowjrEBJbrhT393Yicq2mWYUQnROOXzjOJc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Identity": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\bootstrap-reboot.rtl.css.map",
+      "SourceId": "Meetify",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\",
+      "BasePath": "_content/Meetify",
+      "RelativePath": "css/bootstrap-reboot.rtl.css#[.{fingerprint}]?.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wexc4ua4wj",
+      "Integrity": "2G/FEq/GAS/FZZWBIoL6LXPKps6BtxGXCsTUVrxhozs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Identity": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\bootstrap-reboot.rtl.min.css",
+      "SourceId": "Meetify",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\",
+      "BasePath": "_content/Meetify",
+      "RelativePath": "css/bootstrap-reboot.rtl.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9j04k7ff8o",
+      "Integrity": "S2SiHKfwy3m9UatggjsRctCHEnrAMyi5TJfIz4rOtM4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Identity": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\bootstrap-reboot.rtl.min.css.map",
+      "SourceId": "Meetify",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\",
+      "BasePath": "_content/Meetify",
+      "RelativePath": "css/bootstrap-reboot.rtl.min.css#[.{fingerprint}]?.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "caz9dtw6qw",
+      "Integrity": "5FsqQmq4FvVRt/DD5i2bg95Y78Bvw57H1qvmo6RwOYw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Identity": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\bootstrap-utilities.css",
+      "SourceId": "Meetify",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\",
+      "BasePath": "_content/Meetify",
+      "RelativePath": "css/bootstrap-utilities#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "r71srw9373",
+      "Integrity": "J8DRiUSeWCoJ5KZv3oLznNnguNXxlT91gRfqx4OhLVM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Identity": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\bootstrap-utilities.css.map",
+      "SourceId": "Meetify",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\",
+      "BasePath": "_content/Meetify",
+      "RelativePath": "css/bootstrap-utilities.css#[.{fingerprint}]?.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kpys072oee",
+      "Integrity": "SMU2lB3w0v+EjU5hfM1Hzq4IexxecRDfxm7d+1FMy60=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Identity": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\bootstrap-utilities.min.css",
+      "SourceId": "Meetify",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\",
+      "BasePath": "_content/Meetify",
+      "RelativePath": "css/bootstrap-utilities.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "sumeqeat2b",
+      "Integrity": "zGK05vwcKWLkLZy/2uHeZiDb8n4lNbBhnxIBWgCGlho=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Identity": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\bootstrap-utilities.min.css.map",
+      "SourceId": "Meetify",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\",
+      "BasePath": "_content/Meetify",
+      "RelativePath": "css/bootstrap-utilities.min.css#[.{fingerprint}]?.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8b3e4oeqwp",
+      "Integrity": "vLNGubJ0CJn+dNm5szlXMnn/fvNPyVO6okJ6po7bypU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Identity": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\bootstrap-utilities.rtl.css",
+      "SourceId": "Meetify",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\",
+      "BasePath": "_content/Meetify",
+      "RelativePath": "css/bootstrap-utilities.rtl#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jwbupvf1cn",
+      "Integrity": "PaOXwBVjo0LFfThqwemMb2vZPdpJyTJr2wUpY2rlPgA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Identity": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\bootstrap-utilities.rtl.css.map",
+      "SourceId": "Meetify",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\",
+      "BasePath": "_content/Meetify",
+      "RelativePath": "css/bootstrap-utilities.rtl.css#[.{fingerprint}]?.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lp6b53yply",
+      "Integrity": "R5iWDcOIUk3NTNBsL3kFRpmjmwI420+ragzY3hjSxLw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Identity": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\bootstrap-utilities.rtl.min.css",
+      "SourceId": "Meetify",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\",
+      "BasePath": "_content/Meetify",
+      "RelativePath": "css/bootstrap-utilities.rtl.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gyzl34zark",
+      "Integrity": "uDMgsoOuJTmS+BX8zHV6BRYFknx6qQ0Iwalq0l/Wnwc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Identity": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\bootstrap-utilities.rtl.min.css.map",
+      "SourceId": "Meetify",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\",
+      "BasePath": "_content/Meetify",
+      "RelativePath": "css/bootstrap-utilities.rtl.min.css#[.{fingerprint}]?.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1vu6lxsd9m",
+      "Integrity": "vTp+wSodqx0KTTRGFPS+5vJ4BeD15YsTyg2jOMvRV8Y=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Identity": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\landingpage.css",
+      "SourceId": "Meetify",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\",
+      "BasePath": "_content/Meetify",
+      "RelativePath": "css/landingpage#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "05bgz26h0i",
+      "Integrity": "ZId2ESC57xQzUtg7oja91N/gMIaa+m5kkJu/XahOERM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\landingpage.css"
+    },
+    {
       "Identity": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\site.css",
       "SourceId": "Meetify",
       "SourceType": "Discovered",
@@ -99,6 +813,258 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\js\\bootstrap.bundle.js",
+      "SourceId": "Meetify",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\",
+      "BasePath": "_content/Meetify",
+      "RelativePath": "js/bootstrap.bundle#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3631qojtq1",
+      "Integrity": "tQ9c3dc1t0j9EV2Itwqx1ZK0qjrLayj0+l/lSEgU5ZM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Identity": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\js\\bootstrap.bundle.js.map",
+      "SourceId": "Meetify",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\",
+      "BasePath": "_content/Meetify",
+      "RelativePath": "js/bootstrap.bundle.js#[.{fingerprint}]?.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "yhs0gtq433",
+      "Integrity": "RtS+xc/GamZ1j5irErX3kgDrY2wyvUcCisNyIffxHl8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Identity": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\js\\bootstrap.bundle.min.js",
+      "SourceId": "Meetify",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\",
+      "BasePath": "_content/Meetify",
+      "RelativePath": "js/bootstrap.bundle.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zyma9w1t4a",
+      "Integrity": "NfRUfZNkERrKSFA0c1a8VmCplPDYtpTYj5lQmKe1R/o=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Identity": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\js\\bootstrap.bundle.min.js.map",
+      "SourceId": "Meetify",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\",
+      "BasePath": "_content/Meetify",
+      "RelativePath": "js/bootstrap.bundle.min.js#[.{fingerprint}]?.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0ia45k0zg6",
+      "Integrity": "KMPy0mgJ1P9QNFXDksX2HvkX3SIeO/iM2dOASfZr3oU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Identity": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\js\\bootstrap.esm.js",
+      "SourceId": "Meetify",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\",
+      "BasePath": "_content/Meetify",
+      "RelativePath": "js/bootstrap.esm#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9nx659ylgg",
+      "Integrity": "K8fPuP/Isv+p0f05Jbutp7bUudxGtciVRgDRN4aMa4c=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\bootstrap.esm.js"
+    },
+    {
+      "Identity": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\js\\bootstrap.esm.js.map",
+      "SourceId": "Meetify",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\",
+      "BasePath": "_content/Meetify",
+      "RelativePath": "js/bootstrap.esm.js#[.{fingerprint}]?.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2aps6mjopp",
+      "Integrity": "+nx5p5T+n0g8L/OnO6CG2QIgyGtDPtxKfbBhcNN/yF0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Identity": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\js\\bootstrap.esm.min.js",
+      "SourceId": "Meetify",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\",
+      "BasePath": "_content/Meetify",
+      "RelativePath": "js/bootstrap.esm.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7ifmqzf51n",
+      "Integrity": "/+2UOLrBkJMGzFHiKQxcgGnK1mIA94yryJf56OFeNbk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Identity": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\js\\bootstrap.esm.min.js.map",
+      "SourceId": "Meetify",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\",
+      "BasePath": "_content/Meetify",
+      "RelativePath": "js/bootstrap.esm.min.js#[.{fingerprint}]?.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "586x66nycw",
+      "Integrity": "O9RzA/mzSQDqsLlfgT3EimsUNdYvrynK+iB19rGyO38=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Identity": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\js\\bootstrap.js",
+      "SourceId": "Meetify",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\",
+      "BasePath": "_content/Meetify",
+      "RelativePath": "js/bootstrap#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mykkvd2hkm",
+      "Integrity": "4iVQR37Qe2Tuh7cjJQdKCANjnoR6UO6/cIu9hmy7hZA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\bootstrap.js"
+    },
+    {
+      "Identity": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\js\\bootstrap.js.map",
+      "SourceId": "Meetify",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\",
+      "BasePath": "_content/Meetify",
+      "RelativePath": "js/bootstrap.js#[.{fingerprint}]?.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4fapcppmxt",
+      "Integrity": "AKF2JhIGWaZl3cn18u8a6+ILdrSdz8IM2CXSCZouDbw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\bootstrap.js.map"
+    },
+    {
+      "Identity": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\js\\bootstrap.min.js",
+      "SourceId": "Meetify",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\",
+      "BasePath": "_content/Meetify",
+      "RelativePath": "js/bootstrap.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7183nd47gn",
+      "Integrity": "lel57Jim1/CW4I1iEkaHexK/J9h/ZRneeORKiQuNOIg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\bootstrap.min.js"
+    },
+    {
+      "Identity": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\js\\bootstrap.min.js.map",
+      "SourceId": "Meetify",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\",
+      "BasePath": "_content/Meetify",
+      "RelativePath": "js/bootstrap.min.js#[.{fingerprint}]?.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fv6m00jlsj",
+      "Integrity": "SzzRmuPLldNWnyFXAZP64VpT+clUa5bND5fQscONDu8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\bootstrap.min.js.map"
     },
     {
       "Identity": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\js\\site.js",
@@ -1321,6 +2287,2794 @@
   ],
   "Endpoints": [
     {
+      "Route": "css/animate.min.css",
+      "AssetFile": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\animate.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "80"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ztg57o0FoWUrAQpFniZdZAOSRJu5MHmRDBSCWQqRT8g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 21:45:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ztg57o0FoWUrAQpFniZdZAOSRJu5MHmRDBSCWQqRT8g="
+        }
+      ]
+    },
+    {
+      "Route": "css/animate.min.qbco4o2ysp.css",
+      "AssetFile": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\animate.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "80"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ztg57o0FoWUrAQpFniZdZAOSRJu5MHmRDBSCWQqRT8g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 21:45:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qbco4o2ysp"
+        },
+        {
+          "Name": "label",
+          "Value": "css/animate.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ztg57o0FoWUrAQpFniZdZAOSRJu5MHmRDBSCWQqRT8g="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap.css",
+      "AssetFile": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\bootstrap.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "280202"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0+OrIbuBPR3HGBpows26fnWeZDEmkNIQOA3m+LUDsuc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 21:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0+OrIbuBPR3HGBpows26fnWeZDEmkNIQOA3m+LUDsuc="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap.css.j1m9o9pn5t.map",
+      "AssetFile": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\bootstrap.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "680591"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KfxofL5yt27NqqYinBxvVVVHMUXkaIwbbjHfRKrtgw8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 21:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "j1m9o9pn5t"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KfxofL5yt27NqqYinBxvVVVHMUXkaIwbbjHfRKrtgw8="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap.css.map",
+      "AssetFile": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\bootstrap.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "680591"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KfxofL5yt27NqqYinBxvVVVHMUXkaIwbbjHfRKrtgw8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 21:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KfxofL5yt27NqqYinBxvVVVHMUXkaIwbbjHfRKrtgw8="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap.min.7z09619q9j.css",
+      "AssetFile": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "232018"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zRgmWB5PK4CvTx4FiXsxbHaYRBBjz/rvu97sOC7kzXI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 21:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7z09619q9j"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zRgmWB5PK4CvTx4FiXsxbHaYRBBjz/rvu97sOC7kzXI="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap.min.css",
+      "AssetFile": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "232018"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zRgmWB5PK4CvTx4FiXsxbHaYRBBjz/rvu97sOC7kzXI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 21:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zRgmWB5PK4CvTx4FiXsxbHaYRBBjz/rvu97sOC7kzXI="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap.min.css.jpw2fk0kvm.map",
+      "AssetFile": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\bootstrap.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "589698"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6a7kXCMLkOvwgsPvI9SphA3lCCVYilUHoqABNauxLDQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 21:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jpw2fk0kvm"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap.min.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-6a7kXCMLkOvwgsPvI9SphA3lCCVYilUHoqABNauxLDQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap.min.css.map",
+      "AssetFile": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\bootstrap.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "589698"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6a7kXCMLkOvwgsPvI9SphA3lCCVYilUHoqABNauxLDQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 21:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6a7kXCMLkOvwgsPvI9SphA3lCCVYilUHoqABNauxLDQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap.rtl.ajzo1u5v8g.css",
+      "AssetFile": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\bootstrap.rtl.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "279417"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Gk1oGfOLBLvjrSivQbGbLbVFDYLqIBwry7+HKKrwq08=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 21:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ajzo1u5v8g"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap.rtl.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Gk1oGfOLBLvjrSivQbGbLbVFDYLqIBwry7+HKKrwq08="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap.rtl.css",
+      "AssetFile": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\bootstrap.rtl.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "279417"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Gk1oGfOLBLvjrSivQbGbLbVFDYLqIBwry7+HKKrwq08=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 21:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Gk1oGfOLBLvjrSivQbGbLbVFDYLqIBwry7+HKKrwq08="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap.rtl.css.dwnyfrorjx.map",
+      "AssetFile": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\bootstrap.rtl.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "680451"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"g1c2E/WGT3eJdfDltNW+2b3JVAyG74bcngJUPz4D068=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 21:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dwnyfrorjx"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap.rtl.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-g1c2E/WGT3eJdfDltNW+2b3JVAyG74bcngJUPz4D068="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap.rtl.css.map",
+      "AssetFile": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\bootstrap.rtl.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "680451"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"g1c2E/WGT3eJdfDltNW+2b3JVAyG74bcngJUPz4D068=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 21:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-g1c2E/WGT3eJdfDltNW+2b3JVAyG74bcngJUPz4D068="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap.rtl.min.css",
+      "AssetFile": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\bootstrap.rtl.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "232126"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gP5J22JsVu+X8rzMEh1Kx+lD89HF3DW4YUWPiU9udUc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 21:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gP5J22JsVu+X8rzMEh1Kx+lD89HF3DW4YUWPiU9udUc="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap.rtl.min.css.h0ed2e8v31.map",
+      "AssetFile": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\bootstrap.rtl.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "588895"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MQL775aSq9kNSZA9h1GfrfILFLudaUgLi1xZ87cRkNY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 21:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "h0ed2e8v31"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap.rtl.min.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MQL775aSq9kNSZA9h1GfrfILFLudaUgLi1xZ87cRkNY="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap.rtl.min.css.map",
+      "AssetFile": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\bootstrap.rtl.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "588895"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MQL775aSq9kNSZA9h1GfrfILFLudaUgLi1xZ87cRkNY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 21:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MQL775aSq9kNSZA9h1GfrfILFLudaUgLi1xZ87cRkNY="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap.rtl.min.sdlhrk323x.css",
+      "AssetFile": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\bootstrap.rtl.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "232126"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gP5J22JsVu+X8rzMEh1Kx+lD89HF3DW4YUWPiU9udUc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 21:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sdlhrk323x"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap.rtl.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gP5J22JsVu+X8rzMEh1Kx+lD89HF3DW4YUWPiU9udUc="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap.t01kyuglfx.css",
+      "AssetFile": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\bootstrap.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "280202"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0+OrIbuBPR3HGBpows26fnWeZDEmkNIQOA3m+LUDsuc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 21:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "t01kyuglfx"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0+OrIbuBPR3HGBpows26fnWeZDEmkNIQOA3m+LUDsuc="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap-grid.css",
+      "AssetFile": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\bootstrap-grid.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "70323"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6aHQppfEko/srtbO3ubCBn9bCz25XtsZoZB8XwnYz34=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 21:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6aHQppfEko/srtbO3ubCBn9bCz25XtsZoZB8XwnYz34="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap-grid.css.4weum1d8i3.map",
+      "AssetFile": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\bootstrap-grid.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "203340"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HA9YLrNkqlffVSkFCLsPOLpzvER9oRo1Zkrvt9F9q98=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 21:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4weum1d8i3"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap-grid.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HA9YLrNkqlffVSkFCLsPOLpzvER9oRo1Zkrvt9F9q98="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap-grid.css.map",
+      "AssetFile": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\bootstrap-grid.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "203340"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HA9YLrNkqlffVSkFCLsPOLpzvER9oRo1Zkrvt9F9q98=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 21:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HA9YLrNkqlffVSkFCLsPOLpzvER9oRo1Zkrvt9F9q98="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap-grid.min.a6wz4zl1d0.css",
+      "AssetFile": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\bootstrap-grid.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "51789"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"og1MNJxsupki6LpVXZo+rC95f4QLF16m1YUpHn8vtyM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 21:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "a6wz4zl1d0"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap-grid.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-og1MNJxsupki6LpVXZo+rC95f4QLF16m1YUpHn8vtyM="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap-grid.min.css",
+      "AssetFile": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\bootstrap-grid.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "51789"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"og1MNJxsupki6LpVXZo+rC95f4QLF16m1YUpHn8vtyM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 21:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-og1MNJxsupki6LpVXZo+rC95f4QLF16m1YUpHn8vtyM="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap-grid.min.css.dojtn27aph.map",
+      "AssetFile": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\bootstrap-grid.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "115912"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"I0izs3TQUfbPyb/bNRPJ7iVJ0ULOZFtG/nyETTAU/Yc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 21:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dojtn27aph"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap-grid.min.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-I0izs3TQUfbPyb/bNRPJ7iVJ0ULOZFtG/nyETTAU/Yc="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap-grid.min.css.map",
+      "AssetFile": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\bootstrap-grid.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "115912"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"I0izs3TQUfbPyb/bNRPJ7iVJ0ULOZFtG/nyETTAU/Yc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 21:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-I0izs3TQUfbPyb/bNRPJ7iVJ0ULOZFtG/nyETTAU/Yc="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap-grid.nclwyi8366.css",
+      "AssetFile": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\bootstrap-grid.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "70323"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6aHQppfEko/srtbO3ubCBn9bCz25XtsZoZB8XwnYz34=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 21:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nclwyi8366"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap-grid.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-6aHQppfEko/srtbO3ubCBn9bCz25XtsZoZB8XwnYz34="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap-grid.rtl.css",
+      "AssetFile": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\bootstrap-grid.rtl.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "70397"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"F6wTAruMGkJF9VRzPNq55rxR7N4yhnUKcQhxjmrsGRg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 21:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-F6wTAruMGkJF9VRzPNq55rxR7N4yhnUKcQhxjmrsGRg="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap-grid.rtl.css.map",
+      "AssetFile": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\bootstrap-grid.rtl.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "203344"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"joHEUNOjjpxtq/QNYHOT4JpnFo4439IskmY+bjcTihk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 21:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-joHEUNOjjpxtq/QNYHOT4JpnFo4439IskmY+bjcTihk="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap-grid.rtl.css.q1l85krjoz.map",
+      "AssetFile": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\bootstrap-grid.rtl.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "203344"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"joHEUNOjjpxtq/QNYHOT4JpnFo4439IskmY+bjcTihk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 21:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "q1l85krjoz"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap-grid.rtl.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-joHEUNOjjpxtq/QNYHOT4JpnFo4439IskmY+bjcTihk="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap-grid.rtl.min.css",
+      "AssetFile": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\bootstrap-grid.rtl.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "51864"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"02smAS4nas/okRY9J2IiVqi15Zdws9MuuybRJtf/xQo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 21:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-02smAS4nas/okRY9J2IiVqi15Zdws9MuuybRJtf/xQo="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap-grid.rtl.min.css.map",
+      "AssetFile": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\bootstrap-grid.rtl.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "115989"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8UZkqzSRw4UnhM40O7g3c1TI83av6RGCum1bdZ9q7l8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 21:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8UZkqzSRw4UnhM40O7g3c1TI83av6RGCum1bdZ9q7l8="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap-grid.rtl.min.css.xofyfpxpoh.map",
+      "AssetFile": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\bootstrap-grid.rtl.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "115989"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8UZkqzSRw4UnhM40O7g3c1TI83av6RGCum1bdZ9q7l8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 21:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xofyfpxpoh"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap-grid.rtl.min.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8UZkqzSRw4UnhM40O7g3c1TI83av6RGCum1bdZ9q7l8="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap-grid.rtl.min.ds340y6aci.css",
+      "AssetFile": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\bootstrap-grid.rtl.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "51864"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"02smAS4nas/okRY9J2IiVqi15Zdws9MuuybRJtf/xQo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 21:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ds340y6aci"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap-grid.rtl.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-02smAS4nas/okRY9J2IiVqi15Zdws9MuuybRJtf/xQo="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap-grid.rtl.zpf6r7iu2p.css",
+      "AssetFile": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\bootstrap-grid.rtl.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "70397"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"F6wTAruMGkJF9VRzPNq55rxR7N4yhnUKcQhxjmrsGRg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 21:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zpf6r7iu2p"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap-grid.rtl.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-F6wTAruMGkJF9VRzPNq55rxR7N4yhnUKcQhxjmrsGRg="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap-reboot.css",
+      "AssetFile": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\bootstrap-reboot.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12065"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Kg4miiK9t9v3vyB/LZUmz9a92vBlZxc1rZZfKyDO0wQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 21:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Kg4miiK9t9v3vyB/LZUmz9a92vBlZxc1rZZfKyDO0wQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap-reboot.css.l2uydcq7in.map",
+      "AssetFile": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\bootstrap-reboot.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "129565"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vQnPy/uX1PUe524N9eLyJT6Z++kPr1FwjMLB9qcThYQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 21:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "l2uydcq7in"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap-reboot.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vQnPy/uX1PUe524N9eLyJT6Z++kPr1FwjMLB9qcThYQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap-reboot.css.map",
+      "AssetFile": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\bootstrap-reboot.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "129565"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vQnPy/uX1PUe524N9eLyJT6Z++kPr1FwjMLB9qcThYQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 21:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vQnPy/uX1PUe524N9eLyJT6Z++kPr1FwjMLB9qcThYQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap-reboot.m4zwc30cs6.css",
+      "AssetFile": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\bootstrap-reboot.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12065"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Kg4miiK9t9v3vyB/LZUmz9a92vBlZxc1rZZfKyDO0wQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 21:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "m4zwc30cs6"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap-reboot.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Kg4miiK9t9v3vyB/LZUmz9a92vBlZxc1rZZfKyDO0wQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap-reboot.min.css",
+      "AssetFile": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\bootstrap-reboot.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10126"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LR3cTZvDtka+FVVZFNhKksjFFc9s5eeQJtL7d+kM8Cg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 21:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LR3cTZvDtka+FVVZFNhKksjFFc9s5eeQJtL7d+kM8Cg="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap-reboot.min.css.map",
+      "AssetFile": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\bootstrap-reboot.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "51368"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"G5m7S/1IY191YwC+jWUJ5M9qJy+K9/aeBvkL7BZfHEw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 21:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-G5m7S/1IY191YwC+jWUJ5M9qJy+K9/aeBvkL7BZfHEw="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap-reboot.min.css.vn0zb8aorj.map",
+      "AssetFile": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\bootstrap-reboot.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "51368"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"G5m7S/1IY191YwC+jWUJ5M9qJy+K9/aeBvkL7BZfHEw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 21:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vn0zb8aorj"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap-reboot.min.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-G5m7S/1IY191YwC+jWUJ5M9qJy+K9/aeBvkL7BZfHEw="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap-reboot.min.z4ulzpprs1.css",
+      "AssetFile": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\bootstrap-reboot.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10126"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LR3cTZvDtka+FVVZFNhKksjFFc9s5eeQJtL7d+kM8Cg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 21:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "z4ulzpprs1"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap-reboot.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-LR3cTZvDtka+FVVZFNhKksjFFc9s5eeQJtL7d+kM8Cg="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap-reboot.rtl.55zgwnarf3.css",
+      "AssetFile": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\bootstrap-reboot.rtl.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12058"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6VG3XVVVKowjrEBJbrhT393Yicq2mWYUQnROOXzjOJc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 21:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "55zgwnarf3"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap-reboot.rtl.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-6VG3XVVVKowjrEBJbrhT393Yicq2mWYUQnROOXzjOJc="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap-reboot.rtl.css",
+      "AssetFile": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\bootstrap-reboot.rtl.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12058"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6VG3XVVVKowjrEBJbrhT393Yicq2mWYUQnROOXzjOJc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 21:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6VG3XVVVKowjrEBJbrhT393Yicq2mWYUQnROOXzjOJc="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap-reboot.rtl.css.map",
+      "AssetFile": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\bootstrap-reboot.rtl.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "129580"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2G/FEq/GAS/FZZWBIoL6LXPKps6BtxGXCsTUVrxhozs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 21:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2G/FEq/GAS/FZZWBIoL6LXPKps6BtxGXCsTUVrxhozs="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap-reboot.rtl.css.wexc4ua4wj.map",
+      "AssetFile": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\bootstrap-reboot.rtl.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "129580"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2G/FEq/GAS/FZZWBIoL6LXPKps6BtxGXCsTUVrxhozs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 21:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wexc4ua4wj"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap-reboot.rtl.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2G/FEq/GAS/FZZWBIoL6LXPKps6BtxGXCsTUVrxhozs="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap-reboot.rtl.min.9j04k7ff8o.css",
+      "AssetFile": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\bootstrap-reboot.rtl.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10198"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"S2SiHKfwy3m9UatggjsRctCHEnrAMyi5TJfIz4rOtM4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 21:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9j04k7ff8o"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap-reboot.rtl.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-S2SiHKfwy3m9UatggjsRctCHEnrAMyi5TJfIz4rOtM4="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap-reboot.rtl.min.css",
+      "AssetFile": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\bootstrap-reboot.rtl.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10198"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"S2SiHKfwy3m9UatggjsRctCHEnrAMyi5TJfIz4rOtM4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 21:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-S2SiHKfwy3m9UatggjsRctCHEnrAMyi5TJfIz4rOtM4="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap-reboot.rtl.min.css.caz9dtw6qw.map",
+      "AssetFile": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "63942"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5FsqQmq4FvVRt/DD5i2bg95Y78Bvw57H1qvmo6RwOYw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 21:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "caz9dtw6qw"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap-reboot.rtl.min.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5FsqQmq4FvVRt/DD5i2bg95Y78Bvw57H1qvmo6RwOYw="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap-reboot.rtl.min.css.map",
+      "AssetFile": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "63942"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5FsqQmq4FvVRt/DD5i2bg95Y78Bvw57H1qvmo6RwOYw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 21:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5FsqQmq4FvVRt/DD5i2bg95Y78Bvw57H1qvmo6RwOYw="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap-utilities.css",
+      "AssetFile": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\bootstrap-utilities.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "107938"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"J8DRiUSeWCoJ5KZv3oLznNnguNXxlT91gRfqx4OhLVM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 21:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-J8DRiUSeWCoJ5KZv3oLznNnguNXxlT91gRfqx4OhLVM="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap-utilities.css.kpys072oee.map",
+      "AssetFile": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\bootstrap-utilities.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "267983"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SMU2lB3w0v+EjU5hfM1Hzq4IexxecRDfxm7d+1FMy60=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 21:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kpys072oee"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap-utilities.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SMU2lB3w0v+EjU5hfM1Hzq4IexxecRDfxm7d+1FMy60="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap-utilities.css.map",
+      "AssetFile": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\bootstrap-utilities.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "267983"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SMU2lB3w0v+EjU5hfM1Hzq4IexxecRDfxm7d+1FMy60=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 21:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SMU2lB3w0v+EjU5hfM1Hzq4IexxecRDfxm7d+1FMy60="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap-utilities.min.css",
+      "AssetFile": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\bootstrap-utilities.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "85457"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zGK05vwcKWLkLZy/2uHeZiDb8n4lNbBhnxIBWgCGlho=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 21:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zGK05vwcKWLkLZy/2uHeZiDb8n4lNbBhnxIBWgCGlho="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap-utilities.min.css.8b3e4oeqwp.map",
+      "AssetFile": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\bootstrap-utilities.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "180636"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vLNGubJ0CJn+dNm5szlXMnn/fvNPyVO6okJ6po7bypU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 21:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8b3e4oeqwp"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap-utilities.min.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vLNGubJ0CJn+dNm5szlXMnn/fvNPyVO6okJ6po7bypU="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap-utilities.min.css.map",
+      "AssetFile": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\bootstrap-utilities.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "180636"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vLNGubJ0CJn+dNm5szlXMnn/fvNPyVO6okJ6po7bypU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 21:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vLNGubJ0CJn+dNm5szlXMnn/fvNPyVO6okJ6po7bypU="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap-utilities.min.sumeqeat2b.css",
+      "AssetFile": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\bootstrap-utilities.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "85457"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zGK05vwcKWLkLZy/2uHeZiDb8n4lNbBhnxIBWgCGlho=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 21:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sumeqeat2b"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap-utilities.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zGK05vwcKWLkLZy/2uHeZiDb8n4lNbBhnxIBWgCGlho="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap-utilities.r71srw9373.css",
+      "AssetFile": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\bootstrap-utilities.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "107938"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"J8DRiUSeWCoJ5KZv3oLznNnguNXxlT91gRfqx4OhLVM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 21:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "r71srw9373"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap-utilities.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-J8DRiUSeWCoJ5KZv3oLznNnguNXxlT91gRfqx4OhLVM="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap-utilities.rtl.css",
+      "AssetFile": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\bootstrap-utilities.rtl.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "107806"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PaOXwBVjo0LFfThqwemMb2vZPdpJyTJr2wUpY2rlPgA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 21:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PaOXwBVjo0LFfThqwemMb2vZPdpJyTJr2wUpY2rlPgA="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap-utilities.rtl.css.lp6b53yply.map",
+      "AssetFile": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\bootstrap-utilities.rtl.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "267924"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"R5iWDcOIUk3NTNBsL3kFRpmjmwI420+ragzY3hjSxLw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 21:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lp6b53yply"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap-utilities.rtl.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-R5iWDcOIUk3NTNBsL3kFRpmjmwI420+ragzY3hjSxLw="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap-utilities.rtl.css.map",
+      "AssetFile": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\bootstrap-utilities.rtl.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "267924"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"R5iWDcOIUk3NTNBsL3kFRpmjmwI420+ragzY3hjSxLw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 21:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-R5iWDcOIUk3NTNBsL3kFRpmjmwI420+ragzY3hjSxLw="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap-utilities.rtl.jwbupvf1cn.css",
+      "AssetFile": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\bootstrap-utilities.rtl.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "107806"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PaOXwBVjo0LFfThqwemMb2vZPdpJyTJr2wUpY2rlPgA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 21:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jwbupvf1cn"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap-utilities.rtl.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PaOXwBVjo0LFfThqwemMb2vZPdpJyTJr2wUpY2rlPgA="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap-utilities.rtl.min.css",
+      "AssetFile": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\bootstrap-utilities.rtl.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "85386"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uDMgsoOuJTmS+BX8zHV6BRYFknx6qQ0Iwalq0l/Wnwc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 21:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-uDMgsoOuJTmS+BX8zHV6BRYFknx6qQ0Iwalq0l/Wnwc="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap-utilities.rtl.min.css.1vu6lxsd9m.map",
+      "AssetFile": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "180472"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vTp+wSodqx0KTTRGFPS+5vJ4BeD15YsTyg2jOMvRV8Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 21:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1vu6lxsd9m"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap-utilities.rtl.min.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vTp+wSodqx0KTTRGFPS+5vJ4BeD15YsTyg2jOMvRV8Y="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap-utilities.rtl.min.css.map",
+      "AssetFile": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "180472"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vTp+wSodqx0KTTRGFPS+5vJ4BeD15YsTyg2jOMvRV8Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 21:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vTp+wSodqx0KTTRGFPS+5vJ4BeD15YsTyg2jOMvRV8Y="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap-utilities.rtl.min.gyzl34zark.css",
+      "AssetFile": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\bootstrap-utilities.rtl.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "85386"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uDMgsoOuJTmS+BX8zHV6BRYFknx6qQ0Iwalq0l/Wnwc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 21:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gyzl34zark"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap-utilities.rtl.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-uDMgsoOuJTmS+BX8zHV6BRYFknx6qQ0Iwalq0l/Wnwc="
+        }
+      ]
+    },
+    {
+      "Route": "css/landingpage.05bgz26h0i.css",
+      "AssetFile": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\landingpage.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5897"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZId2ESC57xQzUtg7oja91N/gMIaa+m5kkJu/XahOERM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 23:58:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "05bgz26h0i"
+        },
+        {
+          "Name": "label",
+          "Value": "css/landingpage.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZId2ESC57xQzUtg7oja91N/gMIaa+m5kkJu/XahOERM="
+        }
+      ]
+    },
+    {
+      "Route": "css/landingpage.css",
+      "AssetFile": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\landingpage.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5897"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZId2ESC57xQzUtg7oja91N/gMIaa+m5kkJu/XahOERM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 23:58:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZId2ESC57xQzUtg7oja91N/gMIaa+m5kkJu/XahOERM="
+        }
+      ]
+    },
+    {
       "Route": "css/site.c2tiyv64ts.css",
       "AssetFile": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\css\\site.css",
       "Selectors": [],
@@ -1481,6 +5235,990 @@
         {
           "Name": "integrity",
           "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
+        }
+      ]
+    },
+    {
+      "Route": "js/bootstrap.bundle.3631qojtq1.js",
+      "AssetFile": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\js\\bootstrap.bundle.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "207922"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tQ9c3dc1t0j9EV2Itwqx1ZK0qjrLayj0+l/lSEgU5ZM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 21:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3631qojtq1"
+        },
+        {
+          "Name": "label",
+          "Value": "js/bootstrap.bundle.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tQ9c3dc1t0j9EV2Itwqx1ZK0qjrLayj0+l/lSEgU5ZM="
+        }
+      ]
+    },
+    {
+      "Route": "js/bootstrap.bundle.js",
+      "AssetFile": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\js\\bootstrap.bundle.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "207922"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tQ9c3dc1t0j9EV2Itwqx1ZK0qjrLayj0+l/lSEgU5ZM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 21:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tQ9c3dc1t0j9EV2Itwqx1ZK0qjrLayj0+l/lSEgU5ZM="
+        }
+      ]
+    },
+    {
+      "Route": "js/bootstrap.bundle.js.map",
+      "AssetFile": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\js\\bootstrap.bundle.js.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "427772"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RtS+xc/GamZ1j5irErX3kgDrY2wyvUcCisNyIffxHl8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 21:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-RtS+xc/GamZ1j5irErX3kgDrY2wyvUcCisNyIffxHl8="
+        }
+      ]
+    },
+    {
+      "Route": "js/bootstrap.bundle.js.yhs0gtq433.map",
+      "AssetFile": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\js\\bootstrap.bundle.js.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "427772"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RtS+xc/GamZ1j5irErX3kgDrY2wyvUcCisNyIffxHl8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 21:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yhs0gtq433"
+        },
+        {
+          "Name": "label",
+          "Value": "js/bootstrap.bundle.js.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-RtS+xc/GamZ1j5irErX3kgDrY2wyvUcCisNyIffxHl8="
+        }
+      ]
+    },
+    {
+      "Route": "js/bootstrap.bundle.min.js",
+      "AssetFile": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\js\\bootstrap.bundle.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "80821"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NfRUfZNkERrKSFA0c1a8VmCplPDYtpTYj5lQmKe1R/o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 21:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-NfRUfZNkERrKSFA0c1a8VmCplPDYtpTYj5lQmKe1R/o="
+        }
+      ]
+    },
+    {
+      "Route": "js/bootstrap.bundle.min.js.0ia45k0zg6.map",
+      "AssetFile": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\js\\bootstrap.bundle.min.js.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "332190"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KMPy0mgJ1P9QNFXDksX2HvkX3SIeO/iM2dOASfZr3oU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 21:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0ia45k0zg6"
+        },
+        {
+          "Name": "label",
+          "Value": "js/bootstrap.bundle.min.js.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KMPy0mgJ1P9QNFXDksX2HvkX3SIeO/iM2dOASfZr3oU="
+        }
+      ]
+    },
+    {
+      "Route": "js/bootstrap.bundle.min.js.map",
+      "AssetFile": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\js\\bootstrap.bundle.min.js.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "332190"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KMPy0mgJ1P9QNFXDksX2HvkX3SIeO/iM2dOASfZr3oU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 21:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KMPy0mgJ1P9QNFXDksX2HvkX3SIeO/iM2dOASfZr3oU="
+        }
+      ]
+    },
+    {
+      "Route": "js/bootstrap.bundle.min.zyma9w1t4a.js",
+      "AssetFile": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\js\\bootstrap.bundle.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "80821"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NfRUfZNkERrKSFA0c1a8VmCplPDYtpTYj5lQmKe1R/o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 21:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zyma9w1t4a"
+        },
+        {
+          "Name": "label",
+          "Value": "js/bootstrap.bundle.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-NfRUfZNkERrKSFA0c1a8VmCplPDYtpTYj5lQmKe1R/o="
+        }
+      ]
+    },
+    {
+      "Route": "js/bootstrap.esm.9nx659ylgg.js",
+      "AssetFile": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\js\\bootstrap.esm.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "135984"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"K8fPuP/Isv+p0f05Jbutp7bUudxGtciVRgDRN4aMa4c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 21:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9nx659ylgg"
+        },
+        {
+          "Name": "label",
+          "Value": "js/bootstrap.esm.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-K8fPuP/Isv+p0f05Jbutp7bUudxGtciVRgDRN4aMa4c="
+        }
+      ]
+    },
+    {
+      "Route": "js/bootstrap.esm.js",
+      "AssetFile": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\js\\bootstrap.esm.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "135984"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"K8fPuP/Isv+p0f05Jbutp7bUudxGtciVRgDRN4aMa4c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 21:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-K8fPuP/Isv+p0f05Jbutp7bUudxGtciVRgDRN4aMa4c="
+        }
+      ]
+    },
+    {
+      "Route": "js/bootstrap.esm.js.2aps6mjopp.map",
+      "AssetFile": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\js\\bootstrap.esm.js.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "293657"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+nx5p5T+n0g8L/OnO6CG2QIgyGtDPtxKfbBhcNN/yF0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 21:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2aps6mjopp"
+        },
+        {
+          "Name": "label",
+          "Value": "js/bootstrap.esm.js.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+nx5p5T+n0g8L/OnO6CG2QIgyGtDPtxKfbBhcNN/yF0="
+        }
+      ]
+    },
+    {
+      "Route": "js/bootstrap.esm.js.map",
+      "AssetFile": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\js\\bootstrap.esm.js.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "293657"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+nx5p5T+n0g8L/OnO6CG2QIgyGtDPtxKfbBhcNN/yF0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 21:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+nx5p5T+n0g8L/OnO6CG2QIgyGtDPtxKfbBhcNN/yF0="
+        }
+      ]
+    },
+    {
+      "Route": "js/bootstrap.esm.min.7ifmqzf51n.js",
+      "AssetFile": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\js\\bootstrap.esm.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "74055"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/+2UOLrBkJMGzFHiKQxcgGnK1mIA94yryJf56OFeNbk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 21:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7ifmqzf51n"
+        },
+        {
+          "Name": "label",
+          "Value": "js/bootstrap.esm.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/+2UOLrBkJMGzFHiKQxcgGnK1mIA94yryJf56OFeNbk="
+        }
+      ]
+    },
+    {
+      "Route": "js/bootstrap.esm.min.js",
+      "AssetFile": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\js\\bootstrap.esm.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "74055"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/+2UOLrBkJMGzFHiKQxcgGnK1mIA94yryJf56OFeNbk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 21:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/+2UOLrBkJMGzFHiKQxcgGnK1mIA94yryJf56OFeNbk="
+        }
+      ]
+    },
+    {
+      "Route": "js/bootstrap.esm.min.js.586x66nycw.map",
+      "AssetFile": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\js\\bootstrap.esm.min.js.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "222398"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"O9RzA/mzSQDqsLlfgT3EimsUNdYvrynK+iB19rGyO38=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 21:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "586x66nycw"
+        },
+        {
+          "Name": "label",
+          "Value": "js/bootstrap.esm.min.js.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-O9RzA/mzSQDqsLlfgT3EimsUNdYvrynK+iB19rGyO38="
+        }
+      ]
+    },
+    {
+      "Route": "js/bootstrap.esm.min.js.map",
+      "AssetFile": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\js\\bootstrap.esm.min.js.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "222398"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"O9RzA/mzSQDqsLlfgT3EimsUNdYvrynK+iB19rGyO38=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 21:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-O9RzA/mzSQDqsLlfgT3EimsUNdYvrynK+iB19rGyO38="
+        }
+      ]
+    },
+    {
+      "Route": "js/bootstrap.js",
+      "AssetFile": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\js\\bootstrap.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "145560"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4iVQR37Qe2Tuh7cjJQdKCANjnoR6UO6/cIu9hmy7hZA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 21:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4iVQR37Qe2Tuh7cjJQdKCANjnoR6UO6/cIu9hmy7hZA="
+        }
+      ]
+    },
+    {
+      "Route": "js/bootstrap.js.4fapcppmxt.map",
+      "AssetFile": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\js\\bootstrap.js.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "294819"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AKF2JhIGWaZl3cn18u8a6+ILdrSdz8IM2CXSCZouDbw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 21:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4fapcppmxt"
+        },
+        {
+          "Name": "label",
+          "Value": "js/bootstrap.js.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-AKF2JhIGWaZl3cn18u8a6+ILdrSdz8IM2CXSCZouDbw="
+        }
+      ]
+    },
+    {
+      "Route": "js/bootstrap.js.map",
+      "AssetFile": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\js\\bootstrap.js.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "294819"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AKF2JhIGWaZl3cn18u8a6+ILdrSdz8IM2CXSCZouDbw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 21:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-AKF2JhIGWaZl3cn18u8a6+ILdrSdz8IM2CXSCZouDbw="
+        }
+      ]
+    },
+    {
+      "Route": "js/bootstrap.min.7183nd47gn.js",
+      "AssetFile": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\js\\bootstrap.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "60775"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lel57Jim1/CW4I1iEkaHexK/J9h/ZRneeORKiQuNOIg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 21:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7183nd47gn"
+        },
+        {
+          "Name": "label",
+          "Value": "js/bootstrap.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lel57Jim1/CW4I1iEkaHexK/J9h/ZRneeORKiQuNOIg="
+        }
+      ]
+    },
+    {
+      "Route": "js/bootstrap.min.js",
+      "AssetFile": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\js\\bootstrap.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "60775"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lel57Jim1/CW4I1iEkaHexK/J9h/ZRneeORKiQuNOIg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 21:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lel57Jim1/CW4I1iEkaHexK/J9h/ZRneeORKiQuNOIg="
+        }
+      ]
+    },
+    {
+      "Route": "js/bootstrap.min.js.fv6m00jlsj.map",
+      "AssetFile": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\js\\bootstrap.min.js.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "220691"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SzzRmuPLldNWnyFXAZP64VpT+clUa5bND5fQscONDu8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 21:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fv6m00jlsj"
+        },
+        {
+          "Name": "label",
+          "Value": "js/bootstrap.min.js.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SzzRmuPLldNWnyFXAZP64VpT+clUa5bND5fQscONDu8="
+        }
+      ]
+    },
+    {
+      "Route": "js/bootstrap.min.js.map",
+      "AssetFile": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\js\\bootstrap.min.js.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "220691"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SzzRmuPLldNWnyFXAZP64VpT+clUa5bND5fQscONDu8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 21:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SzzRmuPLldNWnyFXAZP64VpT+clUa5bND5fQscONDu8="
+        }
+      ]
+    },
+    {
+      "Route": "js/bootstrap.mykkvd2hkm.js",
+      "AssetFile": "C:\\IDSInternship\\Meetify\\Meetify\\wwwroot\\js\\bootstrap.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "145560"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4iVQR37Qe2Tuh7cjJQdKCANjnoR6UO6/cIu9hmy7hZA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 21:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mykkvd2hkm"
+        },
+        {
+          "Name": "label",
+          "Value": "js/bootstrap.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4iVQR37Qe2Tuh7cjJQdKCANjnoR6UO6/cIu9hmy7hZA="
         }
       ]
     },
