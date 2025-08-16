@@ -1,0 +1,14 @@
+# .NET / VS
+bin/
+obj/
+.vs/
+*.user
+*.suo
+*.cache
+*.log
+
+# Optional (uncomment if you use them)
+# TestResults/
+# packages/
+# node_modules/
+# .vscode/
