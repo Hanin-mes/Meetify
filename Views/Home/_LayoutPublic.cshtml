@@ -1,0 +1,46 @@
+﻿@{
+    Layout = "~/Views/Home/_LayoutPublic.cshtml";
+    ViewData["Title"] = "Home";
+}
+<section class="hero u-hero">
+    <div class="container d-grid hero-grid">
+        <div class="hero-copy">
+            <h1 class="display-4 fw-bold">Open meeting templates for any team.</h1>
+            <p class="lead">Plan, schedule, and run better meetings with customizable, time-boxed agendas—free forever.</p>
+            <div class="d-flex gap-3">
+                <a href="@Url.Action("Index","Templates")" class="btn btn-primary btn-lg">Browse templates</a>
+                <a href="@Url.Action("Index","Search")" class="btn btn-outline-light btn-lg">Search</a>
+            </div>
+        </div>
+        <div class="hero-art">
+            <!-- place an SVG/PNG illustration here -->
+            <img src="~/img/hero-meetify.png" alt="Calendar and team collaborating" class="img-fluid">
+        </div>
+    </div>
+</section>
+
+<section class="u-one-liner">
+    <div class="container text-center">
+        <p class="mb-0">A constantly updated collection of meeting agendas you can use without friction—export to calendar or copy to your docs.</p>
+    </div>
+</section>
+
+<section class="u-grid">
+    <div class="container">
+        <div class="d-flex justify-content-between align-items-end mb-3">
+            <h2 class="h4 m-0">Featured templates</h2>
+            <a href="@Url.Action("Index","Templates")" class="link-ink">View all</a>
+        </div>
+        @Html.Partial("_TemplateGrid", Model) <!-- or a simple mock grid for now -->
+    </div>
+</section>
+
+<section class="u-supporters">
+    <div class="container text-center">
+        <span class="label">Used by</span>
+        <div class="logo-row">
+            <img src="~/img/logos/logo1.svg" alt="Logo1"><img src="~/img/logos/logo2.svg" alt="Logo2">
+            <img src="~/img/logos/logo3.svg" alt="Logo3"><img src="~/img/logos/logo4.svg" alt="Logo4">
+        </div>
+    </div>
+</section>

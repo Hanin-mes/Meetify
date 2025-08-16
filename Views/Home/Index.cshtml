@@ -1,0 +1,129 @@
+﻿@{
+    Layout = "~/Views/Home/_LayoutPublic.cshtml";
+    ViewData["Title"] = "Home";
+}
+
+<section class="hero">
+    <div class="background-circles" aria-hidden="true">
+        <span></span><span></span><span></span>
+    </div>
+
+    <div class="container d-flex align-items-center hero-content">
+        <div class="text-area flex-grow-1 pe-lg-5 text-start">
+            <h1 id="animatedText" class="display-4 fw-bold">Plan.</h1>
+            <p class="lead mb-4">Meetify helps you schedule, organize, and track your meetings effortlessly.</p>
+
+            <div class="hero-buttons">
+                <a href="#info" class="btn btn-primary btn-lg me-3">Explore Features</a>
+                <!-- If you prefer the modal: data-bs-toggle="modal" data-bs-target="#loginModal" -->
+                <a href="@Url.Action("Login","Account")" class="btn btn-outline-light btn-lg">Login</a>
+            </div>
+        </div>
+
+        <div class="icon-area d-none d-md-block" aria-hidden="true">
+            <svg id="meetifyIcon" width="140" height="140" viewBox="0 0 64 64" fill="none"
+                 xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Meetify icon">
+                <rect x="8" y="12" width="48" height="40" rx="6" stroke="var(--caribbean-current)" stroke-width="4" />
+                <line x1="20" y1="4" x2="20" y2="16" stroke="var(--caribbean-current)" stroke-width="4" />
+                <line x1="44" y1="4" x2="44" y2="16" stroke="var(--caribbean-current)" stroke-width="4" />
+                <circle cx="32" cy="32" r="12" stroke="var(--caribbean-current)" stroke-width="4" />
+                <line id="clockHand" x1="32" y1="32" x2="32" y2="20" stroke="var(--atomic-tangerine)" stroke-width="3" stroke-linecap="round" />
+            </svg>
+        </div>
+    </div>
+</section>
+
+<!-- Optional: a features section if you want to expand later
+<section id="features" class="py-5">
+    <div class="container">
+        <h2 class="mb-4 text-center">Features</h2>
+        <!-- Add cards/columns here -->
+    </div>
+</section>
+
+<section id="info" class="py-5">
+    <div class="container d-grid gap-4 gap-md-5 info-grid">
+        <div class="info-card text-center p-4 shadow-sm rounded-4 bg-white">
+            <div class="info-icon mb-2 fs-1" id="icon1" aria-hidden="true">📅</div>
+            <h3 class="info-title h5 fw-semibold">Easy Scheduling</h3>
+            <p class="info-text mb-0">Book your meetings with just a few clicks and avoid double bookings.</p>
+        </div>
+
+        <div class="info-card text-center p-4 shadow-sm rounded-4 bg-white">
+            <div class="info-icon mb-2 fs-1" id="icon2" aria-hidden="true">⏰</div>
+            <h3 class="info-title h5 fw-semibold">Reminders</h3>
+            <p class="info-text mb-0">Stay on track with automatic meeting reminders and notifications.</p>
+        </div>
+
+        <div class="info-card text-center p-4 shadow-sm rounded-4 bg-white">
+            <div class="info-icon mb-2 fs-1" id="icon3" aria-hidden="true">🤝</div>
+            <h3 class="info-title h5 fw-semibold">Collaboration</h3>
+            <p class="info-text mb-0">Invite team members and collaborate seamlessly in real-time.</p>
+        </div>
+    </div>
+</section>
+
+    <!-- Call to Action Section -->
+    <section class="cta text-center py-5" style="background: var(--atomic-tangerine); color: white;">
+        <div class="container">
+            <h2 class="mb-3">Ready to streamline your meetings?</h2>
+            <a href="@Url.Action("Login","Account")" class="btn btn-light btn-lg">Get Started with Meetify</a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 text-center" style="background: var(--tiffany-blue); color: var(--caribbean-current);">
+        <div class="container">
+            <h2 class="mb-3">Contact Us</h2>
+            <p class="mb-0">Email: <a href="mailto:support@meetify.com" class="link-dark">support@meetify.com</a> | Phone: +123 456 7890</p>
+        </div>
+    </section>
+
+@section Scripts {
+    <script>
+        // Defensive checks in case elements aren’t present
+        const animatedText = document.getElementById('animatedText');
+        const phrases = ['Plan.', 'Book.', 'Meet.', 'Succeed.'];
+        if (animatedText) {
+            let index = 0;
+            function fadeOutIn() {
+                anime({
+                    targets: animatedText,
+                    opacity: [1, 0],
+                    duration: 400,
+                    easing: 'easeInOutQuad',
+                    complete: () => {
+                        index = (index + 1) % phrases.length;
+                        animatedText.textContent = phrases[index];
+                        anime({
+                            targets: animatedText,
+                            opacity: [0, 1],
+                            duration: 400,
+                            easing: 'easeInOutQuad'
+                        });
+                    }
+                });
+            }
+            setInterval(fadeOutIn, 2800);
+        }
+
+        const clockHand = document.getElementById('clockHand');
+        if (clockHand) {
+            anime({
+                targets: '#clockHand',
+                rotate: [0, 360],
+                transformOrigin: '32px 32px',
+                duration: 4000,
+                easing: 'linear',
+                loop: true
+            });
+        }
+
+        // Icon micro-animations
+        if (window.anime) {
+            anime({ targets: '#icon1', translateY: [0, -12, 0], duration: 3000, loop: true, easing: 'easeInOutSine' });
+            anime({ targets: '#icon2', translateX: [0, 14, 0], duration: 3400, loop: true, easing: 'easeInOutQuad' });
+            anime({ targets: '#icon3', scale: [1, 1.18, 1],     duration: 3000, loop: true, easing: 'easeInOutSine' });
+        }
+    </script>
+}
