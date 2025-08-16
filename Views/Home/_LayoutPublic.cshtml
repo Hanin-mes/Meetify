@@ -1,183 +1,46 @@
 ﻿@{
-    Layout = null;
+    Layout = "~/Views/Home/_LayoutPublic.cshtml";
+    ViewData["Title"] = "Home";
 }
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1" />
-    <title>@(ViewData["Title"] ?? "Meetify") - Smart Meeting & Booking</title>
-
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet" />
-
-    <!-- Bootstrap CSS (CDN) -->
-    <link rel="stylesheet"
-          href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-          crossorigin="anonymous">
-
-    <!-- Animate.css -->
-    <link rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-          referrerpolicy="no-referrer" />
-
-    <!-- Your site CSS -->
-    <link rel="stylesheet" href="~/css/landingpage.css" asp-append-version="true" />
-
-    <!-- Anime.js (for icon/hero animations) -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" defer></script>
-
-    <style>
-        /* You can keep tiny layout-only tweaks here, keep the rest in landingpage.css */
-        :root {
-            --caribbean-current: #006d77;
-            --atomic-tangerine: #ff8f70;
-            --tiffany-blue: #c5f5f0;
-            --ink: #0b2430;
-            --offwhite: #f9fbfc;
-        }
-
-        body {
-            font-family: "Poppins", system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-            background: var(--offwhite);
-            color: var(--ink);
-        }
-
-        .navbar {
-            transition: background-color .2s ease, box-shadow .2s ease;
-        }
-
-            .navbar.scrolled {
-                background: rgba(255,255,255,.92);
-                box-shadow: 0 4px 18px rgba(0,0,0,.08);
-                backdrop-filter: blur(6px);
-            }
-
-            .navbar .btn-login {
-                background: var(--caribbean-current);
-                color: #fff;
-                border: 0;
-                padding: .55rem 1rem;
-                border-radius: .75rem;
-            }
-
-                .navbar .btn-login:hover {
-                    opacity: .9;
-                }
-
-        footer {
-            padding: 2rem 0;
-            text-align: center;
-            color: #4a5568;
-        }
-
-        .skip-link {
-            position: absolute;
-            left: -9999px;
-            top: auto;
-            width: 1px;
-            height: 1px;
-            overflow: hidden;
-        }
-
-            .skip-link:focus {
-                position: static;
-                width: auto;
-                height: auto;
-                margin: 1rem;
-                padding: .5rem .75rem;
-                background: #000;
-                color: #fff;
-                border-radius: .5rem;
-            }
-    </style>
-</head>
-<body>
-    <a class="skip-link" href="#mainContent">Skip to main content</a>
-
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container">
-            <a class="navbar-brand fw-bold" href="@Url.Action("Index","Home")" aria-label="Meetify Home">Meetify</a>
-            <button class="navbar-toggler"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#navbarNav"
-                    aria-controls="navbarNav"
-                    aria-expanded="false"
-                    aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul class="navbar-nav align-items-center">
-                    <li class="nav-item"><a class="nav-link" href="#info">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-                    <li class="nav-item ms-lg-2">
-                        <!-- If you’re using Identity: href="@Url.Action("Login", "Account")" -->
-                        <button class="btn btn-login" id="loginBtn" type="button" data-bs-toggle="modal" data-bs-target="#loginModal">
-                            Login
-                        </button>
-                    </li>
-                </ul>
+<section class="hero u-hero">
+    <div class="container d-grid hero-grid">
+        <div class="hero-copy">
+            <h1 class="display-4 fw-bold">Open meeting templates for any team.</h1>
+            <p class="lead">Plan, schedule, and run better meetings with customizable, time-boxed agendas—free forever.</p>
+            <div class="d-flex gap-3">
+                <a href="@Url.Action("Index","Templates")" class="btn btn-primary btn-lg">Browse templates</a>
+                <a href="@Url.Action("Index","Search")" class="btn btn-outline-light btn-lg">Search</a>
             </div>
         </div>
-    </nav>
-
-    <!-- Login Modal (site-wide) -->
-    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content login-form">
-                <div class="modal-header border-0">
-                    <h5 class="modal-title" id="loginModalLabel" style="color: var(--caribbean-current)">Login to Meetify</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"
-                            style="filter: invert(32%) sepia(94%) saturate(626%) hue-rotate(134deg) brightness(88%) contrast(87%);"></button>
-                </div>
-                <div class="modal-body">
-                    <form method="post" action="@Url.Action("Login","Account")">
-                        @Html.AntiForgeryToken()
-                        <div class="form-floating mb-3">
-                            <input type="email" class="form-control" id="floatingEmail" name="Email" placeholder="name@example.com" required />
-                            <label for="floatingEmail">Email address</label>
-                        </div>
-                        <div class="form-floating mb-3">
-                            <input type="password" class="form-control" id="floatingPassword" name="Password" placeholder="Password" required />
-                            <label for="floatingPassword">Password</label>
-                        </div>
-                        <button type="submit" class="btn btn-login w-100">Login</button>
-                    </form>
-                </div>
-            </div>
+        <div class="hero-art">
+            <!-- place an SVG/PNG illustration here -->
+            <img src="~/img/hero-meetify.png" alt="Calendar and team collaborating" class="img-fluid">
         </div>
     </div>
+</section>
 
-    <!-- Page Content -->
-    <main id="mainContent" role="main">
-        @RenderBody()
-    </main>
+<section class="u-one-liner">
+    <div class="container text-center">
+        <p class="mb-0">A constantly updated collection of meeting agendas you can use without friction—export to calendar or copy to your docs.</p>
+    </div>
+</section>
 
-    <!-- Footer -->
-    <footer role="contentinfo">
-        <div>&copy; @DateTime.UtcNow.Year Meetify. All Rights Reserved.</div>
-    </footer>
+<section class="u-grid">
+    <div class="container">
+        <div class="d-flex justify-content-between align-items-end mb-3">
+            <h2 class="h4 m-0">Featured templates</h2>
+            <a href="@Url.Action("Index","Templates")" class="link-ink">View all</a>
+        </div>
+        @Html.Partial("_TemplateGrid", Model) <!-- or a simple mock grid for now -->
+    </div>
+</section>
 
-    <!-- Bootstrap Bundle (includes Popper) -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-            crossorigin="anonymous"></script>
-
-    <script>
-        // Navbar color change on scroll
-        window.addEventListener('scroll', () => {
-            const navbar = document.querySelector('nav.navbar');
-            if (!navbar) return;
-            if (window.scrollY > 50) navbar.classList.add('scrolled');
-            else navbar.classList.remove('scrolled');
-        });
-    </script>
-
-    @RenderSection("Scripts", required: false)
-</body>
-</html>
+<section class="u-supporters">
+    <div class="container text-center">
+        <span class="label">Used by</span>
+        <div class="logo-row">
+            <img src="~/img/logos/logo1.svg" alt="Logo1"><img src="~/img/logos/logo2.svg" alt="Logo2">
+            <img src="~/img/logos/logo3.svg" alt="Logo3"><img src="~/img/logos/logo4.svg" alt="Logo4">
+        </div>
+    </div>
+</section>

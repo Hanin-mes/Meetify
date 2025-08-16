@@ -40,7 +40,6 @@
         <!-- Add cards/columns here -->
     </div>
 </section>
--->
 
 <section id="info" class="py-5">
     <div class="container d-grid gap-4 gap-md-5 info-grid">
@@ -64,12 +63,21 @@
     </div>
 </section>
 
-<section id="contact" class="py-5 text-center" style="background: var(--tiffany-blue); color: var(--caribbean-current);">
-    <div class="container">
-        <h2 class="mb-3">Contact Us</h2>
-        <p class="mb-0">Email: <a href="mailto:support@meetify.com" class="link-dark">support@meetify.com</a> | Phone: +123 456 7890</p>
-    </div>
-</section>
+    <!-- Call to Action Section -->
+    <section class="cta text-center py-5" style="background: var(--atomic-tangerine); color: white;">
+        <div class="container">
+            <h2 class="mb-3">Ready to streamline your meetings?</h2>
+            <a href="@Url.Action("Login","Account")" class="btn btn-light btn-lg">Get Started with Meetify</a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 text-center" style="background: var(--tiffany-blue); color: var(--caribbean-current);">
+        <div class="container">
+            <h2 class="mb-3">Contact Us</h2>
+            <p class="mb-0">Email: <a href="mailto:support@meetify.com" class="link-dark">support@meetify.com</a> | Phone: +123 456 7890</p>
+        </div>
+    </section>
 
 @section Scripts {
     <script>

@@ -1,0 +1,16 @@
+﻿<div class="container">
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
+        @foreach (var t in Model.Items)
+        {
+            <div class="col">
+                <a class="card u-card h-100 text-decoration-none" href="@Url.Action("Details","Templates", new { slug = t.Slug, color = Request.Query["color"] })">
+                    <img src="@t.ThumbnailUrl" class="card-img-top" alt="@t.Title illustration">
+                    <div class="card-body">
+                        <h3 class="h6 mb-1">@t.Title</h3>
+                        <p class="text-muted small mb-0">@t.Duration • @t.Category</p>
+                    </div>
+                </a>
+            </div>
+        }
+    </div>
+</div>
