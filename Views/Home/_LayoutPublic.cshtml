@@ -8,7 +8,7 @@
             <h1 class="display-4 fw-bold">Open meeting templates for any team.</h1>
             <p class="lead">Plan, schedule, and run better meetings with customizable, time-boxed agendas—free forever.</p>
             <div class="d-flex gap-3">
-                <a href="@Url.Action("Index","Templates")" class="btn btn-primary btn-lg">Browse templates</a>
+                @* <a href="@Url.Action("Index","Templates")" class="btn btn-primary btn-lg">Browse templates</a> *@
                 <a href="@Url.Action("Index","Search")" class="btn btn-outline-light btn-lg">Search</a>
             </div>
         </div>
@@ -31,7 +31,7 @@
             <h2 class="h4 m-0">Featured templates</h2>
             <a href="@Url.Action("Index","Templates")" class="link-ink">View all</a>
         </div>
-        @Html.Partial("_TemplateGrid", Model) <!-- or a simple mock grid for now -->
+        @* @Html.Partial("_TemplateGrid", Model) <!-- or a simple mock grid for now --> *@
     </div>
 </section>
 

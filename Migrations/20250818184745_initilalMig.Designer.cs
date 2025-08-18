@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Meetify.Migrations
 {
     [DbContext(typeof(MeetifyContext))]
-    [Migration("20250730102244_InitialMigratee")]
-    partial class InitialMigratee
+    [Migration("20250818184745_initilalMig")]
+    partial class initilalMig
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -349,6 +349,9 @@ namespace Meetify.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("PasswordHash")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Phone")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Role")

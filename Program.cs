@@ -28,6 +28,8 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddScoped<IUsersRepository, UsersRepository>();
 // ✅ Register AutoMapper
 builder.Services.AddAutoMapper(typeof(MappingProfile).Assembly);
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
 
 
 
@@ -38,6 +40,11 @@ if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Error");
     app.UseHsts();
+}
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI();
 }
 
 app.UseHttpsRedirection();
@@ -55,6 +62,7 @@ app.MapRazorPages();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
-
+// IMPORTANT: ensure attribute-routed API controllers work
+app.MapControllers();
 // 🔧 Run the application
 app.Run();

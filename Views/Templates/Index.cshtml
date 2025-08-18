@@ -1,17 +1,17 @@
-﻿@{
-    Layout = "~/Views/Home/_LayoutPublic.cshtml";
-    ViewData["Title"] = "Templates";
-}
-<section class="u-toolbar">
-    <div class="container d-flex flex-wrap gap-3 align-items-center">
-        <form method="get" class="d-flex flex-grow-1 gap-2">
-            <input name="q" value="@Request.Query["q"]" class="form-control form-control-lg" placeholder="Search templates (e.g., stand-up, 1:1, retro)">
-            <input type="color" name="color" value="@Request.Query["color"]" class="form-control-color form-control-lg" title="Pick accent color">
-            <button class="btn btn-primary btn-lg">Search</button>
-        </form>
-        <a href="@Url.Action("Index","Templates")" class="btn btn-outline-secondary">Reset</a>
-    </div>
-</section>
+﻿@* @{ *@
+@*     Layout = "~/Views/Home/_LayoutPublic.cshtml"; *@
+@*     ViewData["Title"] = "Templates"; *@
+@* } *@
+@* <section class="u-toolbar"> *@
+@*     <div class="container d-flex flex-wrap gap-3 align-items-center"> *@
+@*         <form method="get" class="d-flex flex-grow-1 gap-2"> *@
+@*             <input name="q" value="@Request.Query["q"]" class="form-control form-control-lg" placeholder="Search templates (e.g., stand-up, 1:1, retro)"> *@
+@*             <input type="color" name="color" value="@Request.Query["color"]" class="form-control-color form-control-lg" title="Pick accent color"> *@
+@*             <button class="btn btn-primary btn-lg">Search</button> *@
+@*         </form> *@
+@*         <a href="@Url.Action("Index","Templates")" class="btn btn-outline-secondary">Reset</a> *@
+@*     </div> *@
+@* </section> *@
 
-@Html.Partial("_TemplateGrid", Model)
-@Html.Partial("_Pagination", Model.Pagination)
+@* @Html.Partial("_TemplateGrid", Model) *@
+@* @Html.Partial("_Pagination", Model.Pagination) *@

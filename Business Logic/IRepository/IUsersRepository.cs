@@ -1,15 +1,15 @@
 ﻿using Meetify.Models;
-using System.Collections.Generic;
-using System.Threading.Tasks;
 
-namespace Meetify.Business.IRepository
+namespace Meetify.Business.IRepository;
+
+public interface IUsersRepository
 {
-    public interface IUsersRepository
-    {//testing github test tes 
-        Task<IEnumerable<Users>> GetAllAsync();
-        Task<Users> GetByIdAsync(long id);
-        Task AddAsync(Users users);
-        Task UpdateAsync(Users users);
-        Task DeleteAsync(long id);
-    }
+    Task<IEnumerable<Users>> GetAllAsync();
+    Task<Users?> GetByIdAsync(long id);
+    Task<Users> CreateAsync(Users user);
+    Task<bool> UpdateAsync(Users user);
+    Task<bool> DeleteAsync(long id);
+
+    // helpful for unique emails
+    Task<bool> EmailExistsAsync(string email, long? excludeId = null);
 }

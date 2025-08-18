@@ -1,51 +1,42 @@
-﻿using Meetify.Data;
-using Meetify.Business.IRepository;
-using Microsoft.EntityFrameworkCore;
-using System.Collections.Generic;
-using System.Threading.Tasks;
+﻿using Meetify.Business.IRepository;
+using Meetify.Data;
 using Meetify.Models;
+using Microsoft.EntityFrameworkCore;
 
-namespace Meetify.Business.Repository
+namespace Meetify.Business.Repository;
+
+public class UsersRepository : IUsersRepository
 {
-    public class UsersRepository : IUsersRepository
+    private readonly MeetifyContext _db;
+    public UsersRepository(MeetifyContext db) => _db = db;
+
+    public async Task<IEnumerable<Users>> GetAllAsync()
+        => await _db.Users.AsNoTracking().OrderBy(u => u.Id).ToListAsync();
+
+    public Task<Users?> GetByIdAsync(long id)
+        => _db.Users.AsNoTracking().FirstOrDefaultAsync(u => u.Id == id);
+
+    public async Task<Users> CreateAsync(Users user)
     {
-        private readonly MeetifyContext _context;
-
-        public UsersRepository(MeetifyContext context)
-        {
-            _context = context;
-        }
-
-        public async Task<IEnumerable<Users>> GetAllAsync()
-        {
-            return await _context.Users.ToListAsync();
-        }
-
-        public async Task<Users> GetByIdAsync(long id)
-        {
-            return await _context.Users.FindAsync(id);
-        }
-
-        public async Task AddAsync(Users users)
-        {
-            await _context.Users.AddAsync(users);
-            await _context.SaveChangesAsync();
-        }
-
-        public async Task UpdateAsync(Users users)
-        {
-            _context.Users.Update(users);
-            await _context.SaveChangesAsync();
-        }
-
-        public async Task DeleteAsync(long id)
-        {
-            var users = await _context.Users.FindAsync(id);
-            if (users != null)
-            {
-                _context.Users.Remove(users);
-                await _context.SaveChangesAsync();
-            }
-        }
+        _db.Users.Add(user);
+        await _db.SaveChangesAsync();
+        return user;
     }
+
+    public async Task<bool> UpdateAsync(Users user)
+    {
+        _db.Users.Update(user);
+        return await _db.SaveChangesAsync() > 0;
+    }
+
+    public async Task<bool> DeleteAsync(long id)
+    {
+        var entity = await _db.Users.FindAsync(id);
+        if (entity is null) return false;
+        _db.Users.Remove(entity);
+        return await _db.SaveChangesAsync() > 0;
+    }
+
+    public Task<bool> EmailExistsAsync(string email, long? excludeId = null)
+        => _db.Users.AnyAsync(u => u.Email == email && (excludeId == null || u.Id != excludeId));
 }
