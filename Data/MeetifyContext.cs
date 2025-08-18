@@ -1,15 +1,20 @@
-﻿using Meetify.Models;
+﻿using System.Linq;                                     // <-- needed for SelectMany
+using Meetify.Models;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;                   // <-- NEW
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore; // <-- NEW
 
 namespace Meetify.Data
 {
-    public class MeetifyContext : DbContext
+    // Switch to IdentityDbContext so Identity tables (AspNetUsers, AspNetRoles, …) live in the same DB
+    public class MeetifyContext : IdentityDbContext<IdentityUser, IdentityRole, string>
     {
         public MeetifyContext(DbContextOptions<MeetifyContext> options)
             : base(options)
         {
         }
 
+        // Your domain tables (unchanged)
         public DbSet<Users> Users { get; set; }
         public DbSet<Rooms> Rooms { get; set; }
         public DbSet<Locations> Locations { get; set; }
@@ -24,16 +29,18 @@ namespace Meetify.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            // IMPORTANT: configure Identity first
             base.OnModelCreating(modelBuilder);
 
             // Set all foreign keys to Restrict delete behavior
+            // (affects all entities, including Identity tables)
             foreach (var fk in modelBuilder.Model.GetEntityTypes()
-                .SelectMany(e => e.GetForeignKeys()))
+                         .SelectMany(e => e.GetForeignKeys()))
             {
                 fk.DeleteBehavior = DeleteBehavior.Restrict;
             }
 
-            // Fluent API relationships
+            // Fluent API relationships (your original mappings)
             modelBuilder.Entity<RoomFeatures>()
                 .HasOne(rf => rf.Room)
                 .WithMany(r => r.RoomFeatures)

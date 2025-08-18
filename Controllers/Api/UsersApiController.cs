@@ -3,9 +3,12 @@ using Microsoft.AspNetCore.Mvc;
 using Meetify.Business.IRepository;
 using Meetify.DTOs.Users;
 using Meetify.Models;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 
 namespace Meetify.Controllers.Api;
 
+[Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)] // <-- NEW: protect whole controller with JWT
 [ApiController]
 [Route("api/users")] // JSON endpoints live here
 public class UsersApiController : ControllerBase
@@ -20,6 +23,7 @@ public class UsersApiController : ControllerBase
     }
 
     // GET: /api/users
+    [AllowAnonymous] // <-- stays public; delete this attribute if you want it protected too
     [HttpGet]
     [ProducesResponseType(typeof(IEnumerable<UsersDTO>), 200)]
     public async Task<ActionResult<IEnumerable<UsersDTO>>> GetAll()
@@ -31,6 +35,7 @@ public class UsersApiController : ControllerBase
     // GET: /api/users/5
     [HttpGet("{id:long}")]
     [ProducesResponseType(typeof(UsersDTO), 200)]
+    [ProducesResponseType(401)]
     [ProducesResponseType(404)]
     public async Task<ActionResult<UsersDTO>> GetById(long id)
     {
@@ -43,6 +48,7 @@ public class UsersApiController : ControllerBase
     [HttpPost]
     [ProducesResponseType(typeof(UsersDTO), 201)]
     [ProducesResponseType(400)]
+    [ProducesResponseType(401)]
     public async Task<ActionResult<UsersDTO>> Create(CreateUsersDTO dto)
     {
         if (!ModelState.IsValid) return ValidationProblem(ModelState);
@@ -65,8 +71,9 @@ public class UsersApiController : ControllerBase
     // PUT: /api/users/5
     [HttpPut("{id:long}")]
     [ProducesResponseType(204)]
-    [ProducesResponseType(404)]
     [ProducesResponseType(400)]
+    [ProducesResponseType(401)]
+    [ProducesResponseType(404)]
     public async Task<IActionResult> Update(long id, UpdateUsersDTO dto)
     {
         if (!ModelState.IsValid) return ValidationProblem(ModelState);
@@ -90,6 +97,7 @@ public class UsersApiController : ControllerBase
     // DELETE: /api/users/5
     [HttpDelete("{id:long}")]
     [ProducesResponseType(204)]
+    [ProducesResponseType(401)]
     [ProducesResponseType(404)]
     public async Task<IActionResult> Delete(long id)
     {
